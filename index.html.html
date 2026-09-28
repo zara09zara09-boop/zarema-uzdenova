@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Зарема Узденова — Юрист по строительным спорам</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6; }
+header { background: linear-gradient(135deg, #c0392b, #e74c3c); color: #fff; padding: 20px; }
+.header-inner { display: flex; align-items: center; gap: 20px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap; }
+.logo-circle { width: 90px; height: 90px; min-width: 90px; border-radius: 50%; background: #a8d8f0; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 3px solid #fff; }
+.logo-circle svg { width: 40px; height: 40px; }
+.logo-circle span { font-size: 16px; font-weight: bold; color: #2c3e50; letter-spacing: 1px; margin-top: 2px; }
+.header-text h1 { font-size: 24px; margin-bottom: 6px; }
+.header-text p { font-size: 15px; opacity: 0.95; }
+.header-contacts { margin-left: auto; text-align: right; font-size: 14px; }
+.header-contacts a { color: #fff; text-decoration: none; }
+.header-contacts a:hover { text-decoration: underline; }
+nav { background: #922b21; padding: 12px 0; }
+nav ul { display: flex; justify-content: center; gap: 30px; list-style: none; flex-wrap: wrap; }
+nav a { color: #fff; text-decoration: none; font-size: 15px; }
+nav a:hover { text-decoration: underline; }
+.container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+section { margin-bottom: 50px; }
+h2 { color: #c0392b; font-size: 26px; margin-bottom: 20px; border-bottom: 2px solid #c0392b; padding-bottom: 8px; }
+.about-text { font-size: 16px; line-height: 1.8; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.service-card { background: #f9f9f9; border-left: 4px solid #c0392b; padding: 20px; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.08); }
+.service-card h3 { color: #c0392b; font-size: 17px; margin-bottom: 8px; }
+.service-card p { font-size: 14px; color: #555; }
+.expert-block { background: #fff3cd; border: 2px solid #e74c3c; border-radius: 8px; padding: 25px; margin: 20px 0; }
+.expert-block h3 { color: #c0392b; font-size: 20px; margin-bottom: 10px; }
+.expert-block .price { font-size: 28px; color: #c0392b; font-weight: bold; margin: 10px 0; }
+.expert-block .note { font-size: 14px; color: #721c24; background: #f8d7da; padding: 10px; border-radius: 4px; margin-top: 10px; }
+.price-table { width: 100%; border-collapse: collapse; }
+.price-table th { background: #c0392b; color: #fff; padding: 12px; text-align: left; }
+.price-table td { padding: 12px; border-bottom: 1px solid #ddd; }
+.price-table tr:hover { background: #fdf2f2; }
+.price-table .price-col { font-weight: bold; color: #c0392b; }
+.reviews-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 20px; }
+.review-card { background: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 4px solid #a8d8f0; }
+.review-card .name { font-weight: bold; color: #c0392b; margin-bottom: 10px; font-size: 16px; }
+.review-card .text { font-size: 14px; color: #555; font-style: italic; }
+.contacts-block { background: #f9f9f9; padding: 30px; border-radius: 8px; text-align: center; }
+.contacts-block h3 { color: #c0392b; margin-bottom: 15px; font-size: 20px; }
+.contacts-block p { font-size: 16px; margin: 8px 0; }
+.contacts-block a { color: #c0392b; text-decoration: none; font-weight: bold; }
+.contacts-block a:hover { text-decoration: underline; }
+.contract-note { margin-top: 15px; font-size: 15px; color: #c0392b; font-weight: bold; }
+footer { background: #922b21; color: #fff; text-align: center; padding: 20px; font-size: 14px; }
+@media (max-width: 768px) {
+  .header-inner { flex-direction: column; text-align: center; }
+  .header-contacts { margin-left: 0; text-align: center; }
+  nav ul { gap: 15px; }
+  .reviews-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="logo-circle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#2c3e50" stroke-width="2">
+        <path d="M12 3v18M5 7h14M7 7l-3 6a3 3 0 006 0L7 7zM17 7l-3 6a3 3 0 006 0l-3-6zM3 21h18M10 3h4"/>
+        <circle cx="12" cy="3" r="1.5" fill="#2c3e50"/>
+      </svg>
+      <span>УЗМ</span>
+    </div>
+    <div class="header-text">
+      <h1>Зарема Узденова</h1>
+      <p>Юрист по строительным спорам и госзакупкам</p>
+    </div>
+    <div class="header-contacts">
+      <p>г. Черкесск, ул. Умара-Алиева 10А</p>
+      <p><a href="tel:+79280270722">8 928 027-07-22</a></p>
+    </div>
+  </div>
+</header>
+<nav>
+  <ul>
+    <li><a href="#about">О себе</a></li>
+    <li><a href="#services">Услуги</a></li>
+    <li><a href="#prices">Цены</a></li>
+    <li><a href="#reviews">Отзывы</a></li>
+    <li><a href="#contacts">Контакты</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <section id="about">
+    <h2>О себе</h2>
+    <p class="about-text">
+      Меня зовут Зарема Узденова. Я юрист с практикой в сфере строительных споров и государственных закупок.
+      Помогаю подрядчикам и заказчикам решать конфликты по КС-2, КС-3, уступке прав, расторжению контрактов,
+      включению в РНП и исключению из него. Работаю по 44-ФЗ, 223-ФЗ и смежному законодательству.
+      Знаю, как устроены стройки изнутри — от подряда до приёмки. Знаю, где стороны норовят схитрить и
+      где правда на вашей стороне.
+    </p>
+  </section>
+  <section id="services">
+    <h2>Услуги</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Строительные споры</h3>
+        <p>Споры по КС-2, КС-3, взыскание задолженности, расторжение подряда, гарантийные претензии.</p>
+      </div>
+      <div class="service-card">
+        <h3>Госзакупки (44-ФЗ, 223-ФЗ)</h3>
+        <p>Сопровождение контрактов, обжалование в ФАС, защита от включения в РНП и исключение из реестра.</p>
+      </div>
+      <div class="service-card">
+        <h3>Уступка прав требований</h3>
+        <p>Цессия в строительстве: оформление, претензии, судебная защита прав цессионария.</p>
+      </div>
+      <div class="service-card">
+        <h3>Экспертное заключение</h3>
+        <p>Подготовка правового заключения по вашему спору — оценка перспектив, рисков, судебной перспективы.</p>
+      </div>
+      <div class="service-card">
+        <h3>Сопровождение в суде</h3>
+        <p>Ведение дела в арбитражном суде и суде общей юрисдикции от иска до исполнения решения.</p>
+      </div>
+      <div class="service-card">
+        <h3>Абонентское сопровождение</h3>
+        <p>Ежемесячное юридическое обслуживание строительных и подрядных организаций.</p>
+      </div>
+    </div>
+  </section>
+  <section id="prices">
+    <h2>Цены</h2>
+    <table class="price-table">
+      <tr><th>Услуга</th><th>Стоимость</th></tr>
+      <tr><td>Консультация</td><td class="price-col">от 3 000 ₽</td></tr>
+      <tr><td>Ведение дела в суде</td><td class="price-col">от 50 000 ₽</td></tr>
+      <tr><td>Абонентское сопровождение</td><td class="price-col">от 30 000 ₽/мес</td></tr>
+    </table>
+    <div class="expert-block">
+      <h3>Экспертное заключение</h3>
+      <p>Подготовка правового заключения по вашему вопросу: оценка перспектив дела, рисков и судебной перспективы.</p>
+      <div class="price">15 000 ₽</div>
+      <div class="note">В случае продолжения работы стоимость заключения засчитывается в оплату ведения дела (от 50 000 ₽).</div>
+    </div>
+  </section>
+  <section id="reviews">
+    <h2>Отзывы</h2>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="name">Ахмат</div>
+        <p class="text">Обратились к Зареме, когда заказчик отказался подписывать КС-2 на крупную сумму. Думали, всё потеряно. Зарема разобралась за неделю, подала документы, и мы выиграли. РНП удалось избежать. Профессионал своего дела, всем рекомендую.</p>
+      </div>
+      <div class="review-card">
+        <div class="name">Лена</div>
+        <p class="text">Зарема вела наш строительный спор. Объяснила всё по делу, без лишней воды. Результат — деньги получили, контракт сохранили. Честный и грамотный юрист, работает на результат.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contacts">
+    <h2>Контакты</h2>
+    <div class="contacts-block">
+      <h3>Зарема Узденова</h3>
+      <p>г. Черкесск, ул. Умара-Алиева 10А</p>
+      <p><a href="tel:+79280270722">8 928 027-07-22</a></p>
+      <div class="contract-note">Работаю по договору</div>
+    </div>
+  </section>
+</div>
+<footer>
+  <p>&copy; 2026 Зарема Узденова. Юрист по строительным спорам и госзакупкам. Черкесск.</p>
+</footer>
+</body>
+</html>
